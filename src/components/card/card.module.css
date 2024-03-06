@@ -43,3 +43,9 @@
     display: none;
   }
 }
+@media screen and (max-width: 1080px) {
+  .textcontainer {
+    width: 100%;
+  padding: 0px 0px 0px 20px;
+  }
+}
