@@ -1,0 +1,105 @@
+.container {
+    flex: 2;
+    margin-top: 60px;
+  }
+  .subtitle {
+    font-size: 14px;
+    font-weight: 400;
+   
+    color: rgb(210, 210, 210);
+  }
+  
+  .title {
+    font-size: 24px;
+  }
+  .items {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 25px 0 20px 0;
+  }
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .imageContainer {
+    flex: 1;
+    aspect-ratio: 1/1;
+    position: relative;
+  }
+  .image {
+    border: 3px solid lightgray;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .textContainer {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    gap: 10;
+  }
+  .posttitle {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--softTextColor);
+  }
+  .category {
+    padding: 8px;
+    font-size: small;
+    border-radius: 5px;
+    width: fit-content;
+    text-align: center;
+  }
+  .username {
+    font-size: small;
+  }
+  .date {
+    font-size: small;
+    color: var(--softTextColor);
+    padding-left: 3px;
+  }
+  
+  /* colors */
+  
+  .category.style {
+    background-color: #45b8f631;
+  }
+  
+  .category.style:hover {
+    background-color: #7dd2ff31;
+  }
+  .category.fashion {
+    background-color: #fd50d731;
+  }
+  .category.fashion:hover {
+    background-color: #f78fe031;
+  }
+  .category.food {
+    background-color: #69f66e33;
+  }
+  .category.food:hover {
+    background-color: #a2f6a333;
+  }
+  
+  .category.travel {
+    background-color: #ff7a5936;
+  }
+  .category.travel:hover {
+    background-color: #ffad9836;
+  }
+  
+  .category.culture {
+    background-color: #feb05245;
+  }
+  .category.culture:hover {
+    background-color: #ffcf9445;
+  }
+  
+  .category.coding {
+    background-color: #675afb31;
+  }
+  .category.coding:hover {
+    background-color: #a098f831;
+  }
