@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./navbar.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import Login from "../login/Login";
+import Login from "../authentication/Login";
 
 const Navbar = () => {
   return (
