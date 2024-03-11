@@ -6,7 +6,7 @@ const Card = () => {
     <div className={styles.container}>
       <div className={styles.post}>
         <div className={styles.imageContainer}>
-          <Image src="/p1.jpeg" alt="" fill className={styles.image} />
+          <Image src="/wp-2.jpg" alt="" fill className={styles.image} />
         </div>
 
         <div className={styles.textcontainer}>
