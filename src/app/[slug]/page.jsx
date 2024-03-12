@@ -35,7 +35,7 @@ const SinglePage = () => {
             <p>
               Embark on a thrilling journey with Adventure, a blog that invites
               you to explore the unknown and discover the extraordinary. Each
-              post is a gateway to new experiences, whether it's
+              post is a gateway to new experiences, whether it
               adrenaline-pumping escapades or serene encounters with nature. Our
               captivating tales inspire wonder and ignite your passion for
               exploration.
