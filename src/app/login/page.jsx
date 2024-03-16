@@ -11,7 +11,7 @@ const LoginPage = () => {
 
   
   if (status === "loading") {
-    return <div className={styles.loading}>Loading...</div>;
+    return <div className={styles.loading}>Loading..!!</div>;
   }
 
   if (status === "authenticated") {
