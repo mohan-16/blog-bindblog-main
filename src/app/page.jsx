@@ -4,15 +4,18 @@ import CardList from "@/components/cardList/CardItems";
 import Menu from "@/components/menu/Menu";
 import CategoryList from "@/components/categoryList/CategoryList";
 
-export default function Home() {
-  return <div>
-  <div className={styles.container}>
-    <Featured/>
-    <CategoryList/>
-    <div className={styles.content}>
-      <CardList/>
-      <Menu/>
+export default function Home({ searchParams }) {
+  const page = parseInt(searchParams.page)|| 1;
+  return (
+    <div>
+      <div className={styles.container}>
+        <Featured />
+        <CategoryList />
+        <div className={styles.content}>
+          <CardList page={page} />
+          <Menu />
+        </div>
+      </div>
     </div>
-  </div>
-  </div>
+  );
 }

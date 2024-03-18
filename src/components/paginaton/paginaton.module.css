@@ -17,3 +17,8 @@
 .btn:hover{
     transform: translate(1px);
 }
+
+.btn:disabled{
+    background-color: rgba(220, 20, 60, 0.607);
+    cursor: not-allowed;
+}
